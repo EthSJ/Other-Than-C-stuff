@@ -1,0 +1,13 @@
+#lang racket
+
+;first program
+(define (by7? n) (modulo n 7))
+
+(define (divisible-by-7? n ) (if (= (by7? n) 0) (writeln "#t") (writeln "#f")))
+
+(divisible-by-7? 15)
+
+(;second program
+(define function-3  (lambda (x) (x 3)))
+
+(function-3 sqrt)
